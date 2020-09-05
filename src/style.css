@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    margin-top: 120px;
+}
+tr {
+    background-color: rgb(231, 238, 231);
+}
+
+td {
+    background-color: rgb(12, 231, 12);
+    width: 100px;
+    height: 100px;
+}
+img {
+    width: 90px;
+    height: 90px;
+}
+
+.curs {
+    /* cursor : crosshair; */
+    cursor : url("./img/flow.png"), pointer;
+}
