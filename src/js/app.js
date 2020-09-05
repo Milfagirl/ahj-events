@@ -13,7 +13,7 @@ const Intervals = setInterval(() => {
   rand = Math.floor(Math.random() * array.length);
   showGoblin(td, array, rand);
   countVisible++;
-  console.log(`Количество гобинов: ${countVisible}, Количество попаданий: ${countClick}`);
+  console.log(`Количество гоблинов: ${countVisible}, Количество попаданий: ${countClick}`);
   if ((countVisible - countClick) > 5) {
     alert('Игра окончена');
     clearInterval(Intervals);
