@@ -17,8 +17,9 @@ const Intervals = setInterval(() => {
   if ((countVisible - countClick) > 5) {
     alert('Игра окончена');
     clearInterval(Intervals);
+    td.item(rand).innerHTML = ' ';
   }
-}, 2000);
+}, 1000);
 
 document.addEventListener('mouseover', (event) => {
   const someEventTarget = event.target;

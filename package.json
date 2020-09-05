@@ -9,10 +9,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Milfagirl/ahj-events.git"
-  },
+  "repository": "git+https://github.com/Milfagirl/ahj-events.git",
   "keywords": [
     "js"
   ],
@@ -35,7 +32,6 @@
     "eslint-plugin-import": "^2.22.0",
     "file-loader": "^6.1.0",
     "html-loader": "^1.1.0",
-    "jest": "^26.1.0",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
     "terser-webpack-plugin": "^4.1.0",
     "webpack": "^4.43.0",
